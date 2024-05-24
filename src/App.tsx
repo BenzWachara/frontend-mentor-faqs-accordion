@@ -30,7 +30,7 @@ function App() {
             |{" "}
             <a
               className="link-a"
-              href="https://www.frontendmentor.io/profile/BenzWachara"
+              href="https://github.com/BenzWachara/frontend-mentor-faqs-accordion"
               target="_blank"
             >
               GitHub
