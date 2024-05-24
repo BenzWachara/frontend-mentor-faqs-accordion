@@ -1,0 +1,56 @@
+#root {
+  margin: 0;
+}
+
+h1 {
+  color: var(--color-grayish-purple);
+}
+
+.app-body{
+  padding:0px 20px;
+}
+
+.container-app{
+  width: 100%;
+  max-width: 1440px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: calc(100dvh - 40px);
+  z-index: 10;
+  filter: drop-shadow(0rem 1.2rem 1.50rem #ad28eb20);
+}
+
+.bg-header-app{
+  background-image: url('./assets/images/background-pattern-desktop.svg');
+  height: 384px;
+  width: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.footer-credit{
+  height: 40px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-a{
+  text-decoration: none;
+  color: #ad28eb;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .bg-header-app{
+    height: 234px;
+  }
+}

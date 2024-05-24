@@ -1,0 +1,30 @@
+:root {
+  --color-White: #ffffff;
+  --color-light-pink:	#f9f0ff;
+  --color-grayish-purple:	#8c6991;
+  --color-dark-purple:#2f1533;
+  --color-pink:#ad28eb;
+  width: 100%;
+} 
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400; /* Default font weight */
+  font-size:16px;
+  color: var(--color-grayish-purple);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Use font weight 600 for headings */
+  color:#2f1533;
+  margin: 0;
+}
+
+strong {
+  font-weight: 700; /* Use font weight 700 for strong text */
+}
+
+body{
+  margin: 0;
+  background: var(--color-light-pink);
+}
