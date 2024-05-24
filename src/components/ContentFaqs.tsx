@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/contentFaqs.css";
 import ICON_STAR from "../assets/images/icon-star.svg";
 import ICON_PLUS from "../assets/images/icon-plus.svg";
